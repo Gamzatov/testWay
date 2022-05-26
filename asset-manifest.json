@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/testWay/static/css/main.ab7ad5e8.css",
+    "main.js": "/testWay/static/js/main.32e9af6a.js",
+    "static/js/787.0c3f432a.chunk.js": "/testWay/static/js/787.0c3f432a.chunk.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/testWay/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/success-image.svg": "/testWay/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
+    "static/media/Logo.svg": "/testWay/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/testWay/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "index.html": "/testWay/index.html",
+    "main.ab7ad5e8.css.map": "/testWay/static/css/main.ab7ad5e8.css.map",
+    "main.32e9af6a.js.map": "/testWay/static/js/main.32e9af6a.js.map",
+    "787.0c3f432a.chunk.js.map": "/testWay/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab7ad5e8.css",
+    "static/js/main.32e9af6a.js"
+  ]
+}
