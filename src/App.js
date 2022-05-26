@@ -35,7 +35,7 @@ function App() {
       <FirstSection />
       <div className='secondSection' id='users'>
         <h1>
-          Working with GET request
+          Working with GET request.
         </h1>
         <div className={loading ? 'loader_wrapper' : 'users_wrapper'}>
           {loading ? <Loader /> :
