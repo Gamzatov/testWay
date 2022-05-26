@@ -1,0 +1,25 @@
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 20px;
+  overflow-wrap: break-word;
+  width: 1fr;
+  max-width: 350px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.user_name {
+  margin-top: 20px;
+}
+.user_info > p {
+  line-height: 10px;
+}
+@media (max-width: 656px) {
+  .card {
+    max-width: 100%;
+  }
+}

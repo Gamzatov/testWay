@@ -1,38 +1,163 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
 .App {
+}
+.main_btn {
+  background: #f4e041;
+  border-radius: 80px;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  line-height: 26px;
+}
+.firstSection_wrapper {
+  background-image: url("./assets/img/pexels-alexandr-podvalny-1227513.jpeg");
+  text-align: center;
+  background-size: cover;
+  min-height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.firstSection_wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.firstSection_text {
+  max-width: 380px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  z-index: 21;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body {
+  background-color: #e5e5e5;
+}
+.users_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.secondSection {
+  text-align: center;
+}
+.disabled_btn {
+  background: #b4b4b4;
+  border-radius: 80px;
+  padding: 0 15px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  line-height: 26px;
+}
+.RegisterSection {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reg_form_wrapper {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.checbox {
+  text-align: left;
+}
+.form_inp {
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  padding: 15px;
+}
+.checkbox_list {
+  list-style: none;
+  padding-left: 0;
+}
+.check > label {
+  margin-left: 10px;
+}
+.check_input {
+  border: 1px solid #00bdd3;
+  background: #00bdd3;
+}
+
+input[type="radio"]:checked {
+  background: #00bdd3 !important;
+  border: 21px solid #00bdd3;
+  /* width: 50px; */
+}
+.checbox {
+  margin-top: 20px;
+}
+.img_upload {
+  background: #fff;
+  padding: 0px 0px;
+}
+input[type="file"]::file-selector-button {
+  background: #fff;
+  border: 2px solid #000;
+  padding: 15px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 100%;
+}
+.btn {
+  margin-top: 20px;
+  line-height: 26px;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #f4e041;
+  border-radius: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+.loader_wrapper > div {
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_btn:disabled {
+  background: #b4b4b4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.invalid {
+  border: 2px solid red;
+}
+.success_img_wrapper > img{
+  width: 100%;
+}
+@media (max-width: 874px) {
+  .users_wrapper {
+    grid-template-columns: 1fr 1fr;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 656px) {
+  .users_wrapper {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.hide {
+  display: none;
+}
+.popup {
+  display: block;
 }
