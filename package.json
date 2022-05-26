@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/Gamzatov/testWay.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
