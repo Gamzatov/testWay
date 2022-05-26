@@ -2,11 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import FirstSection from './FirstSection';
-import SecondSection from './SecondSection';
 import Register from './Register';
 import axios from 'axios';
-import { getUsers } from './redux/actions/getUsers';
-import { useDispatch } from 'react-redux';
 import Loader from './components/Loader/Loader';
 import UsersCard from './components/UsersCard/UsersCard';
 
