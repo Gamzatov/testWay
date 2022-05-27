@@ -145,6 +145,12 @@ input[type="file"]::file-selector-button {
 }
 .success_img_wrapper > img{
   width: 100%;
+  max-width:400px;
+  
+}
+.success_img_wrapper{
+  max-width:1170px;
+  margin: 20px auto;
 }
 @media (max-width: 874px) {
   .users_wrapper {
